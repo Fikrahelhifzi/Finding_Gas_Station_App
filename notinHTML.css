@@ -1,0 +1,50 @@
+/* idk */
+@keyframes glowing {
+  0% {
+    background-color: #ffee00;
+    box-shadow: 0 0 5px #ffe604;
+  }
+  50% {
+    background-color: #e81919;
+    box-shadow: 0 0 20px #ff0000;
+  }
+  100% {
+    background-color: #fbff00;
+    box-shadow: 0 0 5px #eeff00;
+  }
+}
+/* idk */
+.container3_block1 {
+  height: 200px;
+  background: green;
+}
+/* idk */
+.panic {
+  animation: blinking 1.5s infinite;
+  font-size: 50px;
+}
+/* idk*/
+@keyframes blinking {
+  0% {
+    color: black;
+  }
+  47% {
+    color: blue;
+  }
+  62% {
+    color: transparent;
+  }
+  97% {
+    color: transparent;
+  }
+  100% {
+    color: red;
+  }
+}
+/* idk */
+.leaflet-top .leaflet-control {
+  margin-top: 180px;
+}
+.flex-container2 {
+  display: flex;
+}

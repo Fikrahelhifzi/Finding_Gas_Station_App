@@ -1,0 +1,158 @@
+/* Top bar */
+/* Bar box */
+.titleBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7vh;
+  margin-bottom: 0px;
+  padding: 3vh;
+  background-color: rgb(124, 124, 124);
+
+  z-index: 999;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.65);
+}
+/* Logo box */
+.logoBox {
+  height: 9vh;
+  position: absolute;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+.img1 {
+  border: 1px solid rgb(151, 151, 151);
+  border-radius: 4px;
+  width: 150px;
+  max-height: 9vh;
+}
+.emptyBox {
+  height: 10px;
+  width: 20vh;
+}
+
+/* Text box */
+.warningBox {
+  min-width: 200px;
+  max-width: 300px;
+  font-size: 5vh;
+}
+.warningText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.warning {
+  color: #ff0000;
+  font-weight: 500;
+}
+span#words {
+  font-weight: bolder;
+}
+
+/* Another button */
+.anotherButton {
+  height: 9vh;
+  border: none;
+}
+/* also the button somehow */
+.button1 {
+  padding: 15px 30px;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: x-large;
+
+  background-color: rgb(151, 151, 151);
+}
+.button1:hover {
+  background-color: rgb(255, 53, 53);
+  color: white;
+}
+
+/* Map Bar */
+.mapBar {
+}
+
+/* Map Box */
+.mapBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Map  Box */
+.mapBox {
+  height: 85vh;
+  width: 100%;
+}
+
+/* Form Block */
+/* box */
+/*
+.formBox {
+  max-width: 300px;
+  max-height: 130px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  position: relative;
+  margin-left: 45px;
+  margin-top: 1vh;
+  padding: 10px;
+  z-index: 999;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+  border-radius: 5px;
+  width: 100%;
+}*/
+/* input box */
+.input {
+  padding: 10px;
+  width: 90%;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  border-radius: 3px;
+}
+/* button */
+.dirButton {
+  background-color: rgb(223, 223, 223);
+  border: transparent;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.dirButton:hover {
+  background-color: rgb(255, 53, 53);
+  color: white;
+}
+/* margin */
+#form {
+  padding: 0;
+  margin: 0;
+}
+input:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+/* PANIC button */
+/* box */
+.panicBox {
+  height: 10vh;
+  position: relative;
+  z-index: 400;
+}
+/* button */
+.panicButton {
+  width: 30vw;
+  min-width: 240px;
+  height: 15vh;
+  margin-top: 18vh;
+  margin-left: 35vw;
+
+  background: red;
+  border: 5px solid white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  color: white;
+  font-size: 70px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
